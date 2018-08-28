@@ -1,0 +1,84 @@
+%% %%%%%%%%%% %%%%%%%%%% %%%%%%%%%% %%%%%%%%%% %%%%%%%%%% %%%%%%%%%% %%%%%%%%%%
+
+\documentclass[10pt]{beamer}
+    %\usepackage{graphicx}
+    \usepackage{multirow}
+    \usepackage{tabulary}
+    \usepackage{xspace}
+    \usepackage{float}
+    %\usepackage{listings}
+    %\usepackage[newfloat]{minted} % The 'newfloat' option is not recognized! Why? (maybe an old version)
+    %\usepackage{minted}
+
+
+    \newcommand{\modval}[1]{\underline{#1}}
+    \newcommand{\RQ}[1]{\textbf{RQ#1}}
+    \newcommand{\myverb}[1]{\small\texttt{#1}\normalsize}
+    \newcommand{\Haskell}{\myverb{Haskell}\xspace}
+    \newcommand{\Edison}{\myverb{Edison}\xspace}
+    \newcommand{\Sequences}{\myverb{Sequences}\xspace}
+    \newcommand{\Collections}{\myverb{Collections}\xspace}
+    \newcommand{\Assocs}{\myverb{Associative Collections}\xspace}
+    \newcommand{\Heap}{\myverb{Heap}\xspace}
+    \newcommand{\Heaps}{\myverb{Heaps}\xspace}
+    \newcommand{\Set}{\myverb{Set}\xspace}
+    \newcommand{\Sets}{\myverb{Sets}\xspace}
+
+    \mode<presentation>\usetheme[numbers,totalnumber]{Berlin}
+    \usecolortheme{spruce}
+    \setbeamertemplate{footline}[frame number]
+
+    \title%[Short version]
+{Evaluation of the impact on energy consumption of lazy versus strict evaluation of data-structures}
+    %\subtitle[short version]{A subtitle}
+    \date{\today}
+    \author[G. Melfe, A. Fonseca, J. P. Fernandes]{Gilberto Melfe, Alcides Fonseca, Jo\~{a}o Paulo Fernandes}
+
+
+    \begin{document}
+
+        \setbeamercovered{transparent}
+
+
+        %% %%%%%%%%%% %%%%%%%%%% %%%%%%%%%% %%%%%%%%%% %%%%%%%%%% %%%%%%%%%% %%%%%%%%%%
+
+        \begin{frame}
+
+            \maketitle
+
+
+        \end{frame}
+
+
+        %% %%%%%%%%%% %%%%%%%%%% %%%%%%%%%% %%%%%%%%%% %%%%%%%%%% %%%%%%%%%% %%%%%%%%%%
+
+        \include{introduction}
+
+        \include{approach}
+
+        \include{results}
+
+        \include{conclusions}
+
+
+        %% %%%%%%%%%% %%%%%%%%%% %%%%%%%%%% %%%%%%%%%% %%%%%%%%%% %%%%%%%%%% %%%%%%%%%%
+
+        \begin{frame}
+
+            \maketitle
+
+            \includegraphics[width=.25\textwidth]{images/i_m_saving_energy} 
+
+
+        \end{frame}
+
+
+        %% %%%%%%%%%% %%%%%%%%%% %%%%%%%%%% %%%%%%%%%% %%%%%%%%%% %%%%%%%%%% %%%%%%%%%%
+
+
+    \end{document}
+
+
+%% %%%%%%%%%% %%%%%%%%%% %%%%%%%%%% %%%%%%%%%% %%%%%%%%%% %%%%%%%%%% %%%%%%%%%%
+
+
